@@ -1,0 +1,213 @@
+.dudes{
+	width: 1280px;
+	height: 520px; overflow: hidden;
+
+}
+
+
+
+.ocho{
+	width: 1099px;
+	height: 514px;
+	overflow: hidden;
+    position: absolute;
+	margin-top: 0px; 
+	border: 2px solid #000000;
+	padding: 1px;
+	float: left;
+	margin-inline: -2px;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+
+}
+.vive{
+   
+    margin-top: -330px;
+    margin-inline: 660px;
+   
+}
+
+.gmail{
+    
+    width: 100px;
+    height: 100px;
+    margin-inline: 15px;
+    margin-top: 40px;
+}
+
+h1{
+    font-size: 45px;
+    margin-top: 50px;
+    margin-inline: 30px;
+    color: #ffffff;
+}
+
+h2{
+  margin-inline: 50px;
+  margin-top: -20px;
+}
+h3{
+    margin-inline: 45px;
+    align-items: center;
+}
+
+.wrapper1 {
+	display: inline-flex;
+	list-style: none;
+	margin: 0%;
+	padding: 0%;
+   box-sizing: border-box;
+  
+  }
+  
+  .wrapper1 .icon {
+	position: relative;
+	background: #ffffff;
+	border-radius: 50%;
+	padding: 15px;
+	margin: 10px;
+	width: 20px;
+	height: 20px;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	top: -345px;
+	left: 820px;
+  }
+  
+  .wrapper1 .tooltip {
+	position: absolute;
+	top: 0;
+	font-size: 14px;
+	background: #ffffff;
+	color: #ffffff;
+	padding: 5px 8px;
+	border-radius: 5px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper1 .tooltip::before {
+	position: absolute;
+	content: "";
+	height: 8px;
+	width: 8px;
+	background: #ffffff;
+	bottom: -3px;
+	left: 50%;
+	transform: translate(-50%) rotate(45deg);
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper1 .icon:hover .tooltip {
+	top: -45px;
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+  }
+  
+  .wrapper1 .icon:hover span,
+  .wrapper1 .icon:hover .tooltip {
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper1 .facebook:hover,
+  .wrapper1 .facebook:hover .tooltip,
+  .wrapper1 .facebook:hover .tooltip::before {
+	background: #1877F2;
+	color: #ffffff;
+  }
+  
+  .wrapper1 .twitter:hover,
+  .wrapper1 .twitter:hover .tooltip,
+  .wrapper1 .twitter:hover .tooltip::before {
+	background: #1DA1F2;
+	color: #ffffff;
+  }
+  
+  .wrapper1 .instagram:hover,
+  .wrapper1 .instagram:hover .tooltip,
+  .wrapper1 .instagram:hover .tooltip::before {
+	background: #E4405F;
+	color: #ffffff;
+  }
+  
+  .wrapper1 .github:hover,
+  .wrapper1 .github:hover .tooltip,
+  .wrapper1 .github:hover .tooltip::before {
+	background: #333333;
+	color: #ffffff;
+  }
+  
+  .wrapper1 .youtube:hover,
+  .wrapper1 .youtube:hover .tooltip,
+  .wrapper1 .youtube:hover .tooltip::before {
+	background: #CD201F;
+	color: #ffffff;
+  }
+  
+
+  .reveal {
+    position: relative;
+    display: flex;
+    color: #000000;
+    font-size: 1.55em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    white-space: pre;
+    margin-inline: 180px;
+    margin-top: -80px;
+  }
+  .reveal span {
+    opacity: 0;
+    transform: scale(0);
+    animation: fadeIn 2.4s forwards;
+  }
+  .reveal::before, .reveal::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+    transform: scale(0);
+  }
+  
+  .reveal::before {
+    left: 50%;
+    animation: slideLeft 1.5s cubic-bezier(0.7, -0.6, 0.3, 1.5) forwards;
+  }
+  .reveal::after {
+    right: 50%;
+    animation: slideRight 1.5s cubic-bezier(0.7, -0.6, 0.3, 1.5) forwards
+    ;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes slideLeft {
+    to {
+      left: -1%;
+      opacity: 1;
+      transform: scale(0.9);
+    }
+  }
+  @keyframes slideRight {
+    to {
+      right: 35%;
+      opacity: 1;
+      transform: scale(0.9);
+    }
+  }

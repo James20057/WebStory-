@@ -1,0 +1,191 @@
+.dudes{
+	width: 1280px;
+	height: 1000px; overflow: hidden;
+  background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+}
+
+.dis{
+  margin-top: -60px;
+  margin-inline: 300px;
+}
+  
+  .container {
+    width: 1090px;
+    min-width: 400px;
+    height: 330px;
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    
+    transform: translate(-50%, -50%);
+    margin-top: 400px;
+  }
+
+  .card{
+    width: 200px;
+    height: 300px;
+  }
+  .card{
+    width: 200px;
+    height: 300px;
+  }
+  .container .card {
+    width: 270px;
+    height: 330px;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+   top: 0;
+    text-align: center;
+    transition: all 0.25s;
+    
+  }
+  .container .card:nth-child(2) {
+    margin: 0 50px;
+  }
+  .container .card:hover {
+    top: -15px;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+  .container .card h4 {
+    font-weight: 600;
+  }
+  .container .card p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #040505;
+  }
+
+
+  .card2{
+    width: 200px;
+    height: 300px;
+    margin-top: 100px;
+  }
+  .container .card2 {
+    width: 270px;
+    height: 330px;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+   top: 0;
+    text-align: center;
+    transition: all 0.25s;
+    
+  }
+  .container .card2:nth-child(2) {
+    margin: 0 50px;
+  }
+  .container .card2:hover {
+    top: -15px;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+  .container .card2 h4 {
+    font-weight: 600;
+  }
+  .container .card2 p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .container .card2 a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #040505;
+  }
+
+  .card3{
+    width: 200px;
+    height: 300px;
+    margin-top: 100px;
+    margin-inline: 50px;
+  }
+  .container .card3 {
+    width: 270px;
+    height: 330px;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+   top: 0;
+    text-align: center;
+    transition: all 0.25s;
+    
+  }
+  .container .card3:nth-child(2) {
+    margin: 0 50px;
+  }
+  .container .card3:hover {
+    top: -15px;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+  .container .card3 h4 {
+    font-weight: 600;
+  }
+  .container .card3 p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .container .card3 a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #040505;
+  }
+
+
+  .card4{
+    width: 200px;
+    height: 300px;
+    margin-top: 100px;
+    margin-inline: 1px;
+  }
+  .container .card4 {
+    width: 270px;
+    height: 330px;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+   top: 0;
+    text-align: center;
+    transition: all 0.25s;
+    
+  }
+  .container .card4:nth-child(2) {
+    margin: 0 50px;
+  }
+  .container .card4:hover {
+    top: -15px;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+  .container .card4 h4 {
+    font-weight: 600;
+  }
+  .container .card4 p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .container .card4 a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #040505;
+  }
+
+  

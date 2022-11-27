@@ -1,0 +1,570 @@
+.dudes{
+	width: 1280px;
+	height: 1250px; overflow: hidden;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);  margin: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 20% 30%;
+}
+
+
+.text-container{
+  margin: 0 2px;
+
+}
+.container1{
+  margin-inline: 270px;
+  margin-top: -60px;
+}
+.card-flyer{
+	width: 260px;
+	height: 400px;
+	margin-inline: 100px;
+	top: 200px;
+}
+.row{
+	margin-top: -200px;
+}
+#cards_landscape_wrap-2 {
+	text-align: center;
+  }
+  #cards_landscape_wrap-2 .container {
+	padding-top: 80px;
+	padding-bottom: 100px;
+  }
+  #cards_landscape_wrap-2 a {
+	text-decoration: none;
+	outline: none;
+  }
+  #cards_landscape_wrap-2 .card-flyer {
+	border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box {
+	background: #ffffff;
+	overflow: hidden;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box img {
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	-ms-transition: all 0.9s ease;
+	width: 100%;
+	height: 200px;
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+	opacity: 0.7;
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	transform: scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box {
+	text-align: center;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+	padding: 30px 18px;
+  }
+  #cards_landscape_wrap-2 .card-flyer {
+	background: #ffffff;
+	margin-top: 50px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover {
+	background: #fff;
+	box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-top: 50px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #000000;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box h6 {
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Roboto Black", sans-serif;
+	letter-spacing: 1px;
+	color: #00acc1;
+  }
+  
+
+  .card-flyer2{
+	width: 260px;
+	height: 400px;
+	margin-inline: 415px;
+	margin-top: 1px;
+}
+
+.row2{
+	margin-top: -450px;
+}
+
+.image-box{
+	width: 100%;
+	height: 200px;
+}
+#cards_landscape_wrap-2 {
+	text-align: center;
+  }
+  #cards_landscape_wrap-2 .container {
+	padding-top: 80px;
+	padding-bottom: 100px;
+  }
+  #cards_landscape_wrap-2 a {
+	text-decoration: none;
+	outline: none;
+  }
+  #cards_landscape_wrap-2 .card-flyer2 {
+	border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer2 .image-box {
+	background: #ffffff;
+	overflow: hidden;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer2 .image-box img {
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	-ms-transition: all 0.9s ease;
+	width: 100%;
+	height: 200px;
+  }
+  #cards_landscape_wrap-2 .card-flyer2:hover .image-box img {
+	opacity: 0.7;
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	transform: scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer2 .text-box {
+	text-align: center;
+  }
+  #cards_landscape_wrap-2 .card-flyer2 .text-box .text-container {
+	padding: 30px 18px;
+  }
+  #cards_landscape_wrap-2 .card-flyer2 {
+	background: #ffffff;
+	margin-top: 50px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+  }
+  #cards_landscape_wrap-2 .card-flyer2:hover {
+	background: #fff;
+	box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-top: 50px;
+  }
+  #cards_landscape_wrap-2 .card-flyer2 .text-box p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #000000;
+  }
+  #cards_landscape_wrap-2 .card-flyer2 .text-box h6 {
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Roboto Black", sans-serif;
+	letter-spacing: 1px;
+	color: #00acc1;
+  }
+  
+
+  .card-flyer3{
+	width: 260px;
+	height: 400px;
+	margin-inline: 730px;
+	top: 200px;
+}
+.row3{
+	margin-top: -450px;
+}
+#cards_landscape_wrap-2 {
+	text-align: center;
+  }
+  #cards_landscape_wrap-2 .container {
+	padding-top: 80px;
+	padding-bottom: 100px;
+  }
+  #cards_landscape_wrap-2 a {
+	text-decoration: none;
+	outline: none;
+  }
+  #cards_landscape_wrap-2 .card-flyer3 {
+	border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer3 .image-box {
+	background: #ffffff;
+	overflow: hidden;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer3 .image-box img {
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	-ms-transition: all 0.9s ease;
+	width: 100%;
+	height: 200px;
+  }
+  #cards_landscape_wrap-2 .card-flyer3:hover .image-box img {
+	opacity: 0.7;
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	transform: scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer3 .text-box {
+	text-align: center;
+  }
+  #cards_landscape_wrap-2 .card-flyer3 .text-box .text-container {
+	padding: 30px 18px;
+  }
+  #cards_landscape_wrap-2 .card-flyer3 {
+	background: #ffffff;
+	margin-top: 50px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+  }
+  #cards_landscape_wrap-2 .card-flyer3:hover {
+	background: #fff;
+	box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-top: 50px;
+  }
+  #cards_landscape_wrap-2 .card-flyer3 .text-box p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #000000;
+  }
+  #cards_landscape_wrap-2 .card-flyer3 .text-box h6 {
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "Roboto Black", sans-serif;
+	letter-spacing: 1px;
+	color: #00acc1;
+  }
+  
+
+  .card-flyer4{
+    width: 260px;
+    height: 400px;
+    margin-inline: 100px;
+    top: 200px;
+  }
+  .row4{
+    margin-top: 110px;
+  }
+  #cards_landscape_wrap-2 {
+    text-align: center;
+    }
+    #cards_landscape_wrap-2 .container {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    }
+    #cards_landscape_wrap-2 a {
+    text-decoration: none;
+    outline: none;
+    }
+    #cards_landscape_wrap-2 .card-flyer4 {
+    border-radius: 5px;
+    }
+    #cards_landscape_wrap-2 .card-flyer4 .image-box {
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    }
+    #cards_landscape_wrap-2 .card-flyer4 .image-box img {
+    -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -o-transition: all 0.9s ease;
+    -ms-transition: all 0.9s ease;
+    width: 100%;
+    height: 200px;
+    }
+    #cards_landscape_wrap-2 .card-flyer4:hover .image-box img {
+    opacity: 0.7;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+    }
+    #cards_landscape_wrap-2 .card-flyer4 .text-box {
+    text-align: center;
+    }
+    #cards_landscape_wrap-2 .card-flyer4 .text-box .text-container {
+    padding: 30px 18px;
+    }
+    #cards_landscape_wrap-2 .card-flyer4 {
+    background: #ffffff;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+    }
+    #cards_landscape_wrap-2 .card-flyer4:hover {
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+    }
+    #cards_landscape_wrap-2 .card-flyer4 .text-box p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+    }
+    #cards_landscape_wrap-2 .card-flyer4 .text-box h6 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    letter-spacing: 1px;
+    color: #00acc1;
+    }
+    
+
+    .card-flyer5{
+      width: 260px;
+      height: 400px;
+      margin-inline: 415px;
+      top: 200px;
+    }
+    .row5{
+      margin-top: -450px;
+    }
+    #cards_landscape_wrap-2 {
+      text-align: center;
+      }
+      #cards_landscape_wrap-2 .container {
+      padding-top: 80px;
+      padding-bottom: 100px;
+      }
+      #cards_landscape_wrap-2 a {
+      text-decoration: none;
+      outline: none;
+      }
+      #cards_landscape_wrap-2 .card-flyer5 {
+      border-radius: 5px;
+      }
+      #cards_landscape_wrap-2 .card-flyer5 .image-box {
+      background: #ffffff;
+      overflow: hidden;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      }
+      #cards_landscape_wrap-2 .card-flyer5 .image-box img {
+      -webkit-transition: all 0.9s ease;
+      -moz-transition: all 0.9s ease;
+      -o-transition: all 0.9s ease;
+      -ms-transition: all 0.9s ease;
+      width: 100%;
+      height: 200px;
+      }
+      #cards_landscape_wrap-2 .card-flyer5:hover .image-box img {
+      opacity: 0.7;
+      -webkit-transform: scale(1.15);
+      -moz-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+      -o-transform: scale(1.15);
+      transform: scale(1.15);
+      }
+      #cards_landscape_wrap-2 .card-flyer5 .text-box {
+      text-align: center;
+      }
+      #cards_landscape_wrap-2 .card-flyer5 .text-box .text-container {
+      padding: 30px 18px;
+      }
+      #cards_landscape_wrap-2 .card-flyer5 {
+      background: #ffffff;
+      margin-top: 50px;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+      }
+      #cards_landscape_wrap-2 .card-flyer5:hover {
+      background: #fff;
+      box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      margin-top: 50px;
+      }
+      #cards_landscape_wrap-2 .card-flyer5 .text-box p {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: #000000;
+      }
+      #cards_landscape_wrap-2 .card-flyer5 .text-box h6 {
+      margin-top: 0px;
+      margin-bottom: 4px;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: "Roboto Black", sans-serif;
+      letter-spacing: 1px;
+      color: #00acc1;
+      }
+      
+
+
+      .card-flyer6{
+        width: 260px;
+        height: 400px;
+        margin-inline: 715px;
+        top: 200px;
+      }
+      .row6{
+        margin-top: -450px;
+      }
+      #cards_landscape_wrap-2 {
+        text-align: center;
+        }
+        #cards_landscape_wrap-2 .container {
+        padding-top: 80px;
+        padding-bottom: 100px;
+        }
+        #cards_landscape_wrap-2 a {
+        text-decoration: none;
+        outline: none;
+        }
+        #cards_landscape_wrap-2 .card-flyer6 {
+        border-radius: 5px;
+        }
+        #cards_landscape_wrap-2 .card-flyer6 .image-box {
+        background: #ffffff;
+        overflow: hidden;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        }
+        #cards_landscape_wrap-2 .card-flyer6 .image-box img {
+        -webkit-transition: all 0.9s ease;
+        -moz-transition: all 0.9s ease;
+        -o-transition: all 0.9s ease;
+        -ms-transition: all 0.9s ease;
+        width: 100%;
+        height: 200px;
+        }
+        #cards_landscape_wrap-2 .card-flyer6:hover .image-box img {
+        opacity: 0.7;
+        -webkit-transform: scale(1.15);
+        -moz-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+        -o-transform: scale(1.15);
+        transform: scale(1.15);
+        }
+        #cards_landscape_wrap-2 .card-flyer6 .text-box {
+        text-align: center;
+        }
+        #cards_landscape_wrap-2 .card-flyer6 .text-box .text-container {
+        padding: 30px 18px;
+        }
+        #cards_landscape_wrap-2 .card-flyer6 {
+        background: #ffffff;
+        margin-top: 50px;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        -ms-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+        }
+        #cards_landscape_wrap-2 .card-flyer6:hover {
+        background: #fff;
+        box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        -ms-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        margin-top: 50px;
+        }
+        #cards_landscape_wrap-2 .card-flyer6 .text-box p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #000000;
+        }
+        #cards_landscape_wrap-2 .card-flyer6 .text-box h6 {
+        margin-top: 0px;
+        margin-bottom: 4px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: "Roboto Black", sans-serif;
+        letter-spacing: 1px;
+        color: #00acc1;
+        }
+        

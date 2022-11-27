@@ -1,0 +1,31 @@
+/* Es usado para modificar estilos de los banners*/
+
+
+.banner {
+    width: 1100px;
+    height: 250px;
+    margin: auto;
+    background-size: 100% 100%;
+    display: relative;
+    border: 3px solid rgb(0, 0, 0);
+    animation: banner 15s infinite;
+    animation-direction:alternate;
+  }
+  
+  @keyframes banner {
+    0%, 30% {
+      background-image: url(../img/banner.png);
+      opacity: 1;
+    }
+    
+    35%,
+    65% {
+      background-image: url(../img/banner2.png);
+      opacity: 1;
+    }
+    70%,
+    100% {
+      opacity: 1;
+      background-image: url(../img/banner3.png);
+    }
+  }

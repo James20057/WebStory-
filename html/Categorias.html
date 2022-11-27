@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+
+<head>
+	<meta name="description"
+		content="&iexcl;¡En esta pagina encontraras historias con mucha creatividad y magia!. Si tienes una buena idea, no dudes en crearla.">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+
+
+
+	<title>WebStory</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+
+
+</head>
+
+<body>
+
+	<!--/Inicio-->
+
+	<div id="principal">
+		<header>
+			<div id="logo">
+				<figure>
+					<a title="" href="../index.html"><img src="../img/logo 3.png" align="center" width="420px"
+							height="200px" /></a>
+				</figure>
+			</div>
+
+
+
+			<!--/Registro y Inicio Secion-->
+
+			<nav class="Part">
+				<ul>
+					<li><a href="../html/Inicio_Sesion.html">Acceder</a></li>
+					<li><a href="../html/Registro.html">Registrarse</a></li>
+				</ul>
+			</nav>
+
+			<div class="buscar">
+				<input type="text" name="" placeholder="&iquest;Buscas algo?" required>
+				<div class="btn">
+					<i class="fas fa-search icon"></i>
+				</div>
+			</div>
+
+			<div id="Banner1"></div>
+			<div id="Banner2"></div>
+		</header>
+
+		<!--/link-->
+
+		<link rel="stylesheet" type="text/css" href="../css/slide.css">
+		<link rel="stylesheet" type="text/css" href="../css/Categorias.css">
+
+
+
+
+
+
+
+		<div class="banner"></div>
+
+
+		<!--/menu-->
+
+		<nav class="menu">
+			<ul>
+				<li><a href="../html/Conocenos.html">Conocenos</a></li>
+				<li><a href="">Categorias</a></li>
+				<li><a href="./Comentarios.html">Comentarios</a></li>
+				<li><a href="./Muestrate.html">Muestrate</a></li>
+			</ul>
+			</li>
+		</nav>
+
+
+
+
+
+			<!--/categorias-->
+
+
+
+
+			<section id="categorias">
+
+				<section class="container">
+
+					<img src="../img/categorias.png" alt="Categorias" width="580px" height="330px">
+
+				</section>
+
+				<section class="container2">
+					<figure>
+						<a title="" href="../html/miedo.html"><img src="../img/miedo.png" alt="" width="370px" height="180px"></a>
+					</figure>
+				</section>
+
+				<section class="container3">
+					<figure>
+						<a title="" href="../html/Aventura.html"><img src="../img/Aventura.png" alt="" width="370px" height="180px"></a>
+					</figure>
+				</section>
+
+				<section class="container4">
+					<figure>
+						<a title="" href="../html/Novela.html"><img src="../img/novela.png" alt="" width="370px" height="180px"></a>
+					</figure>
+				</section>
+
+				<section class="container5">
+					<figure>
+						<a title="" href="../html/filosoficas.html"><img src="../img/filosofia.png" alt="" width="370px" height="180px"></a>
+					</figure>
+				</section>
+
+				<section class="container6">
+					<figure>
+						<a title="" href="../html/Romance.html"><img src="../img/romance.png" alt="" width="370px" height="180px"></a>
+					</figure>
+				</section>
+
+				<section class="container7">
+					<figure>
+						<a title="" href="../html/Creatupropiahistoria.html"><img src="../img/creatupropiahistoria.png" alt="" width="370px" height="180px"></a>
+					</figure>
+				</section>
+
+				<section class="container8">
+
+					<img src="../img/historias.png" alt="Categorias" width="380px" height="230px">
+
+				</section>
+
+				
+				<!-- Slider main container -->
+<div class="swiper">
+	<!-- Additional required wrapper -->
+	<div class="swiper-wrapper">
+	  <!-- Slides -->
+	  
+	  <div class="swiper-slide"><a title="" href="../html/Elefante_encadenado.html"><img src="../img/elefante2.png" alt="" width="600px" height="360px"></div></a>
+	  <div class="swiper-slide"><a title="" href="../html/lo_que_se_trago_la_tierra.html"><img src="../img/loque.png" alt="" width="600px" height="360px" align="center"></div></a>
+	  <div class="swiper-slide"><a title="" href="../html/Elefante_encadenado.html"><img src="../img/elefante2.png" alt="" width="600px" height="360px"></div></a>
+	  <div class="swiper-slide"><a title="" href="../html/lo_que_se_trago_la_tierra.html"><img src="../img/loque.png" alt="" width="600px" height="360px" align="center"></div></a>	  ...
+	</div>
+	<!-- If we need pagination -->
+	<div class="swiper-pagination"></div>
+  
+	<!-- If we need navigation buttons -->
+	<div class="swiper-button-prev"> </div>
+	<div class="swiper-button-next"></div>
+  
+	<!-- If we need scrollbar -->
+  </div>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+		<script>
+			const swiper = new Swiper('.swiper', {
+					slidesPerView: 2,
+					centeredSlides: true,
+					spaceBetween: -10,
+					slidesPerGroup: 1,
+					pagination: {
+					  el: ".swiper-pagination",
+					  type: "fraction",
+					},
+					navigation: {
+					  nextEl: ".swiper-button-next",
+					  prevEl: ".swiper-button-prev",
+					},
+				  });
+			
+				  
+		</script>
+
+
+

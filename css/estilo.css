@@ -1,0 +1,961 @@
+
+/* Propiedades del cuerpo de la pagina web*/
+
+body{
+    background-image: url(../img/fondo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	display: fixed;
+	font-family: "Poppins", sans-serif;
+	
+}
+
+
+
+/* Es usado para modificar estructura de los banners*/
+
+div#Banner1{
+	width: 1100px;
+	height: 98px;
+	background-image: linear-gradient(to right, #ff2600, #ffbf10, #f7b500);
+	margin-block-end: -202px;
+	margin-top: -30px;
+	border: 2px solid #000;
+}
+
+
+/* Es usado para modificar las caracteristicas del parrafo*/
+
+p {
+    
+     
+    -webkit-background-clip: text;
+    background-clip: text;
+     
+    color: #000;
+}
+
+/* Las propiedades de la pagina principal*/
+
+#principal{
+	width: 1100px;
+	height: auto; overflow: hidden;
+	border: 4px solid #000;
+	margin: auto;
+	background-color: #000;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	display: fixed;
+	
+
+	
+
+}
+
+
+
+/* Cabecera de la pagina web*/
+
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+	margin-top: 30px;
+	align-items: center;
+	display: block;
+	
+}
+
+/* Es usado para modificar el logo de la pagina web*/
+
+
+#logo{
+	width: 850px;
+	height: 50px;
+	border: 0px solid rgb(234, 234, 234);
+	float: left; 
+	margin-left: -93px;
+	margin-top: -65px;
+	align-items: center;
+	display: block;
+}
+
+
+figure{
+	
+}
+img {
+	
+	transition: 0.5s;
+	object-fit: cover;
+}
+
+figure img:hover   {
+	transform: scale(1.11);
+}
+
+@media (max-width:100px){
+	header{
+		flex-direction: column;
+	}
+
+	.Part{
+		flex-direction: column;
+	}
+	
+	.buscar{
+		flex-direction: column;
+	}
+}
+
+
+/* Es usado para modificar las caracteristicas del titulo y subtitulo*/
+
+.titulo{
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.sub-titulo{
+	font-size: 20px;
+	margin-top: -70px;
+	text-align: left;
+	margin-left: 14px;
+}
+
+
+
+/* hacen parte del 3 bloque de la pagina web*/
+
+#categorias{
+	width: 1100px;
+	height: 900px; ;
+	background-image: linear-gradient(to right, #ff2600, #ffbf10, #f7b500);
+	border: 2px solid #000;
+	margin-top: 15px;
+	margin-top: -1px;
+
+}
+
+#categoria{
+	width: 1100px;
+	height: 1200px; ;
+	background-image: linear-gradient(to right, #ff2600, #ffbf10, #f7b500);
+	border: 2px solid #000;
+	margin-top: 15px;
+	margin-top: -1px;
+	
+
+}
+
+/* Es usado para ubicar y darle estilos a inciar seccion y registrarse*/
+
+.Part{
+	width: 450px;
+	height: 100px;
+	float: right;
+	margin-top: 17px;
+	margin-inline: -35px;
+	padding: 12px, 10px;
+	display: flex;
+	
+}
+
+.Part ul li{
+	list-style: none;
+	float: left;
+	padding: 1px 5px;
+
+}
+
+.Part ul li a{
+	text-decoration:none;
+	padding: 7px 25px;
+	border: 2px solid #fff; 
+	margin-bottom: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background:local;	
+	color: #fff;
+	box-shadow: 2px 2px 10px black;
+
+
+}
+
+
+.Part ul li a:hover{
+	color: #000 ;
+	transition: background 1s, color 1s;
+	background: #fff;
+	border: 2px solid #000;
+	
+
+}
+
+/* es usado para el menu y sus diferentes estilos*/
+
+.menu{
+	display: flex;
+    width: 100%;
+    justify-content: center;
+	background-image: linear-gradient(to right, #ff2600, #ffbf10, #f7b500);
+	height: 50px;
+    border: solid 3px rgb(0, 0, 0);
+    align-items: center;
+}
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: #191C26;
+	
+}
+
+.menu ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.menu ul li{
+	padding: 1px 13px; 
+	position:relative;
+ 	float:left;
+ 	margin:0;
+ 	padding:0;
+           
+}
+.menu ul li ul {
+	display: none;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 14px 60px;
+	border: 0px solid #ccc;
+    color:rgb(229, 229, 229);
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #000000;
+	transition: background 1s, color 1s;
+	border: 2px solid #000;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	
+
+}
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+		display: block;
+	}
+
+
+
+
+/* Es usado para el boton de busqueda de la pagina*/
+.buscar{
+	position: absolute;
+	padding: 60px;
+	margin-top: -34px;
+	margin-left: 750px;
+	
+}
+
+.buscar input{
+	width: 230px;
+	height: 0 25px;
+	padding:  10px;
+	font-size: 14px;
+	color: #000;
+	outline: none;
+	border: 1px solid silver;
+	border-radius: 30px;
+	transition: all 0.6s ease;
+	display: block;
+
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  line-height: 49px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 55px;
+  margin-right: 19px;
+}
+
+.buscar:hover input {
+	width: none;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+
+}
+
+.buscar input:focus {
+  width: none ;
+}
+
+/* usado para las propiedades de los recuadros que contienen texto*/
+	
+div#demas{
+	width: 940px;
+	height: 767px;
+	background: #000000;
+}
+
+
+.uno{
+	width: 350px;
+	height: auto; overflow: hidden;
+	border: 2px solid #ccc;
+	float: right;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.parrafo{
+	color:#000;
+	width: 95%;
+	text-align: justify;
+	font-size: 15px;
+	margin: 20px;
+	
+	
+}
+.dos{
+	width: 730px;
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 840px;
+	overflow: hidden;
+	border: 3px solid #000000;
+	margin-top: 10px; 
+	color: #000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 1px;
+	float: left;
+	margin-inline: 10px;
+	background: linear-gradient(to right, #83a4d4, #b6fbff);
+	box-shadow: 2px 2px 10px black;
+
+}
+
+
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+	font-family: "Poppins", sans-serif;
+
+}
+
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+
+#info{
+	width: 900px;
+	height: 530px; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: -790px; 
+	
+	
+}
+
+
+
+
+/* Es usado para modificar imagenes */
+
+.img{
+	width:250px; 
+	height:150px;
+	background-image: url(../img/elefante.png);
+	 border: 1px solid #000000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 9px;
+	background-size: 100% 100%;
+	margin-inline: 235px;
+	box-shadow: 2px 2px 10px black;
+
+}
+
+
+	
+
+#der{
+	width: 290px;
+	height: 10px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-inline: 500px;
+	
+}
+
+	
+
+	
+.img2{
+	width:500px; 
+	height:250px;
+	background-image: url(../img/logo\ 3.png);
+	padding: 5px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 220px;
+}
+
+.img6{
+	width:250px; 
+	height:150px;
+	background-image: url(../img/Se_trago_la_tierra.png);
+	 border: 1px solid #000000;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	padding: 10px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 235px;
+	box-shadow: 2px 2px 10px black;
+
+}
+
+
+
+
+/* hace parte de "conocenos" */
+
+.tres{
+	width: 1070px;
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 840px;
+	overflow: hidden;
+	border: 3px solid #000000;
+	margin-top: 10px; 
+	color: #000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 1px;
+	background-size: 100% 100%;
+	float: left;
+	margin-inline: 10px;
+	background: linear-gradient(to right, #83a4d4, #b6fbff);
+	
+}
+	
+#logo2{
+	margin-inline: 290px;
+	margin-top: 50px;
+	align-items: center;
+}
+
+
+/* Con esta funcion se puede modificar la barra de subida y bajada de la pagina (Muy util)*/
+
+body::-webkit-scrollbar{
+	width: 15px;
+	background: #fff;
+
+}
+
+body::-webkit-scrollbar-thumb{
+	
+	background-image: linear-gradient(to right, #ff2600, #ffbf10, #f7b500);
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+/* Es usado para la parte de la derecha de la pagina web*/
+
+.cuatro{
+	width: 260px;
+	height: 600px;
+	overflow: hidden;
+	border: 3px solid #000000;
+	margin-top: -1063px; 
+	color: #000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 1px;
+	float: left;
+	margin-inline: 807px;
+	background: linear-gradient(to right, #d9a7c7, #fffcdc);
+	box-shadow: 2px 2px 10px black;
+
+	
+	  
+}
+
+.cinco{
+	width: 730px;
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 840px;
+	overflow: hidden;
+	border: 3px solid #000000;
+	margin-top: 10px; 
+	color: #000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 1px;
+	float: left;
+	margin-inline: 10px;
+	background: linear-gradient(to right, #d9a7c7, #fffcdc);
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+
+}
+
+
+.seis{
+	width: 260px;
+	height: 366px;
+	overflow: hidden;
+	border: 3px solid #000000;
+	margin-top: -420px; 
+	color: #000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 1px;
+	float: left;
+	margin-inline: 807px;
+	background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+	box-shadow: 2px 2px 10px black;
+
+}
+
+
+
+
+	
+article{
+	width: 260px;
+	height: 320px;
+	overflow: hidden;
+	margin-inline: 900px;
+	background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+	position: absolute;
+	left: 95px;
+	top: 1130px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 3px solid #000;
+}
+
+
+footer{
+	width: 1200px;
+	height: 100px;
+	border: 3px solid #000;
+	margin-top: 35px;
+	text-align: center;
+}
+
+.p1{
+	margin-top: -45px;
+	margin-left: -750px;
+	font-size: 17px;
+}
+
+.p2{
+	margin-top: 30px;
+	margin-left: -670px;
+	font-size: 20px;
+}
+
+
+.img3{
+	width: 60px;
+	height: 50px;
+	background-image: url(../img/Facebook.png);
+	padding: 5px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 900px;
+	margin-top: -65px;
+}
+
+.img4{
+	width: 60px;
+	height: 50px;
+	background-image: url(../img/logo_instagram.png);
+	padding: 5px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 980px;
+	margin-top: -59px;
+}
+
+
+.img5{
+	width: 170px;
+	height: 150px;
+	background-image: url(../img/gato.png.png);
+	padding: 7px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 475px;
+	margin-top: -99px;
+}
+
+.contenedor1:hover .img {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+.contenedor2:hover .img3 {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+
+.contenedor3:hover .img6 {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+.contenedor1 {
+	overflow:hidden;
+}
+
+.contenedor2 {
+	overflow:hidden;
+}
+.contenedor3 {
+	overflow:hidden;
+}
+
+.contenedor4 {
+	overflow:hidden;
+}
+.contenedor5 {
+	overflow:hidden;
+}
+
+.contenedor7{
+	overflow: hidden;
+}
+
+
+/* Es usado para la parte de la derecha de la pagina web y sus imagenes*/
+
+.imgg{
+	width:45px; 
+	height:20px;
+	background-image: url(../img/elefante.png);
+	 border: 1px solid #000000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 8px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 10px;
+	margin-top: 10px;
+
+}
+.contenedor1:hover .imgg {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+
+.imgl{
+	width:45px; 
+	height:20px;
+	background-image: url(https://1.bp.blogspot.com/-J2BkxH6RDQQ/Xuwj6UgapRI/AAAAAAAAsoc/JbdHaeCMv5IS6u9rHRf0PQpmGlKDVCXxACLcBGAsYHQ/s640/2020-06-18_23-31-46%2BVampiro.jpg);
+	 border: 1px solid #000000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 8px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 10px;
+	margin-top: 20px;
+
+}
+.contenedor2:hover .imgl {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+
+.imgll{
+	width:45px; 
+	height:20px;
+	background-image: url(http://pm1.narvii.com/6923/ec7f0ffab3c6cb0cc88b54c1459896856e184082r1-512-288v2_uhq.jpg);
+	 border: 1px solid #000000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 8px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 10px;
+	margin-top: 20px;
+
+}
+.contenedor3:hover .imgll {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+
+
+
+.imglll{
+	width:45px; 
+	height:20px;
+	background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/09/most-likely-die.jpg?itok=qv0RK1r4);
+	 border: 1px solid #000000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 8px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 10px;
+	margin-top: 20px;
+
+}
+.contenedor4:hover .imglll {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+
+.imgllll{
+	width:45px; 
+	height:20px;
+	background-image: url(https://static.wixstatic.com/media/633f30_8b025babd077cf60f9ca5c9b9928924b.jpg/v1/fill/w_630,h_391,al_c,lg_1,q_80,usm_1.20_1.00_0.01/633f30_8b025babd077cf60f9ca5c9b9928924b.webp);
+	 border: 1px solid #000000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 8px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 10px;
+	margin-top: 20px;
+
+}
+.contenedor5:hover .imgllll {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+
+.imglllll{
+	width:45px; 
+	height:20px;
+	background-image: url(https://www.tehacebien.uy/index.php/files/large/3aeba5436fed89a);
+	 border: 1px solid #000000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 8px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 10px;
+	margin-top: 20px;
+
+}
+.contenedor6:hover .imglllll {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+
+.imgllllll{
+	width:45px; 
+	height:20px;
+	background-image: url(https://www.tehacebien.uy/index.php/files/large/3aeba5436fed89a);
+	 border: 1px solid #000000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 8px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 10px;
+	margin-top: 20px;
+
+}
+.contenedor7:hover .imgllllll {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+
+h4{
+	margin-inline: 10px;
+	margin-top: -30px;
+	font-size: 14px;
+}
+
+.j5{
+	left: 200px;
+	margin-inline: 81px;
+	margin-top: -30px;
+	font-size: 13px;
+}
+
+
+.imgk{
+	width:45px; 
+	height:20px;
+	background-image: url(../img/Se_trago_la_tierra.png);
+	 border: 1px solid #000000;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 8px;
+	background-size: 100% 100%;
+	float: center;
+	margin-inline: 10px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 10px black;
+
+}
+.contenedor1:hover .imgk {
+	-webkit-transform:scale(0.8);
+	transform:scale(0.8);
+	transition: all 0.6s ease;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+ box-sizing: border-box;
+
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  top: -72px;
+  left: 350px;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
